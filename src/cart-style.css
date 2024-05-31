@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+.container {
+    margin: 0 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.header {
+    background-color: #F5C958;
+    height: 100px;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.clip_header {
+    max-width: 1360px;
+}
+
+.header_menu {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c_art {
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 133px;
+    margin-bottom: 0;
+}
+
+.card {
+    max-width: 280px;
+    max-height: 460px;
+    background-color: #F5CAAA;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+.image img{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.card_text {
+    max-width: 280px;
+}
+
+.product_name {
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.product_description {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.product_cost {
+    font-size: 24px;
+    font-weight: 300;
+}
+.product_to_cart {
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: #CD9B58;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 300;
+    transition: background-color 0.3s linear;
+    justify-self: end;
+    cursor: pointer;
+}
+
+.product_to_cart:hover {
+    background-color: #239B58;
+}
+
+.cost_and_cart {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.product_description {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cards {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 310px);
+    justify-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.footer {
+    background-color: #F2924A;
+    height: 100px;
+    margin-top: 40px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+  }
