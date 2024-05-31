@@ -1,0 +1,80 @@
+[
+  {
+    "type": "soup",
+    "name": "Borsch",
+    "description": "With sour cream and herbs",
+    "price": 175
+  },
+  {
+    "type": "soup",
+    "name": "Cheese-soup",
+    "description": "With salmon and shrimp",
+    "price": 250
+  },
+  {
+    "type": "soup",
+    "name": "Cream-soup",
+    "description": "With black truffle",
+    "price": 300
+  },
+  {
+    "type": "soup",
+    "name": "Gazpacho",
+    "description": "Grated vegetable soup",
+    "price": 190
+  },
+  {
+    "type": "pasta",
+    "name": "Carbonara",
+    "description": "With bacon and cream",
+    "price": 250
+  },
+  {
+    "type": "pasta",
+    "name": "Bolognese",
+    "description": "With meat and tomatoes",
+    "price": 250
+  },
+  {
+    "type": "drinks",
+    "name": "VMilkshake",
+    "description": "Vanilla",
+    "price": 200
+  },
+  {
+    "type": "drinks",
+    "name": "SMilkshake",
+    "description": "Strawberry",
+    "price": 200
+  },
+  {
+    "type": "drinks",
+    "name": "CMilkshake",
+    "description": "Chocolate",
+    "price": 200
+  },
+  {
+    "type": "fast-food",
+    "name": "BBurger",
+    "description": "With beef",
+    "price": 300
+  },
+  {
+    "type": "fast-food",
+    "name": "CBurger",
+    "description": "With chicken",
+    "price": 250
+  },
+  {
+    "type": "fast-food",
+    "name": "CKebab",
+    "description": "Classic",
+    "price": 275
+  },
+  {
+    "type": "fast-food",
+    "name": "SKebab",
+    "description": "Spicy",
+    "price": 300
+  }
+]
